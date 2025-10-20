@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+quotes=(
+"Bezos has probably already fired three interns today."
+"This isn't the AWS status page, it's the to-do list from hell."
+"Bro, there are more services in the red than hairs on Jeff's head."
+"Northern Virginia is basically a USB stick with depression today."
+"If AWS keeps this up for another ten minutes, the internet will reboot itself."
+"It's never 'just DNS'. It's a career-limiting event."
+"Multi-Region is not architecture — it's trauma prevention."
+"Logs don't lie — they just don't confess immediately."
+"If it's not monitored, it's broken. You just don't know it yet."
+"Production is sacred. Test is therapy."
+"Meetings are pull requests without merge."
+"Cost optimization starts with NAT gateways and tears."
+"Security Hub doesn't complain — it screams for attention."
+"If you change DNS in production, you're either brave or unemployed."
+"Wipro recorded it. Whether someone understood it is a separate issue."
+)
+printf "%s\n" "${quotes[RANDOM % ${#quotes[@]}]}"
