@@ -1,3 +1,4 @@
+> _Made by Ali C._
 # ali-says
 
 `ali-says` is a lightweight terminal utility that prints short engineering-related quotes on login or on demand.  
